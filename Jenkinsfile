@@ -5,8 +5,7 @@ pipeline {
         SONARQUBE_SERVER = 'SonarQubeServer'  // The name of the SonarQube server configured in Jenkins
         SONAR_TOKEN = 'squ_1965c9d8d5160a32dc72b156491066aaf3823a47' // Store the token securely
         DOCKERHUB_CREDENTIALS_ID = 'Docker_Hub'
-        DOCKERHUB_REPO = 'senegalion/trip-cost-calculator'
-//         DOCKERHUB_REPO = 'amirdirin/sep2_week5'
+        DOCKERHUB_REPO = 'senegalion/sep2_week5'
         DOCKER_IMAGE_TAG = 'latest'
 
 
